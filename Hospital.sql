@@ -358,4 +358,4 @@ primary key(case_A_no),
 foreign key (case_A_no) references Admitted (case_A_number),
 foreign key (pid) references patient_general_details(patient_id)
 on delete cascade on update cascade             
-)
+);
